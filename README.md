@@ -10,7 +10,7 @@ iobroker.telegram, iobroker,enums, nodejs, smarthome, generates a menu from the 
  
  -you can find the name of enum there
 
-![enums name](https://raw.githubusercontent.com/Nahasapeemapetilon/MyTelegramMenu/master/img/img001.JPG?token=APcGB9N2z--_TFBOYGWap8dzjlVuMeFMks5cYyBZwA%3D%3D)
+![enums name](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img001.JPG?raw=true)
 
 ![enums name2](https://raw.githubusercontent.com/Nahasapeemapetilon/MyTelegramMenu/master/img/img002.JPG?token=APcGB0g-K2UAg1-mWxPyuLOLG4cE8C8mks5cYyDswA%3D%3D)
 
