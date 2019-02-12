@@ -33,7 +33,7 @@ MenuItem.prototype.findItem = function(what)
 {
     if(this.hasItems())
     {
-        let found = this.items.find(item  => {return item.getName() == what});
+        let found = this.items.find(item  => {return item.getName().trim() == what.trim()});
         return found;
     }
     return undefined;
