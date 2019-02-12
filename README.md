@@ -9,7 +9,7 @@ iobroker.telegram, iobroker,enums, nodejs, smarthome, generates a menu from the 
  - adjust the last line in the script and select the enumeration you want to get displayed in telegram
  
  
-(https://raw.githubusercontent.com/Nahasapeemapetilon/MyTelegramMenu/master/img/img001.JPG?token=APcGB9N2z--_TFBOYGWap8dzjlVuMeFMks5cYyBZwA%3D%3D)
+![enums name](https://raw.githubusercontent.com/Nahasapeemapetilon/MyTelegramMenu/master/img/img001.JPG?token=APcGB9N2z--_TFBOYGWap8dzjlVuMeFMks5cYyBZwA%3D%3D)
       
  
  
