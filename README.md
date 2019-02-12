@@ -23,7 +23,7 @@ iobroker.telegram, iobroker,enums, nodejs, smarthome, generates a menu from the 
 
 ![...](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img006.JPG?raw=true)
 
-[!...](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img007.JPG?raw=true)
+![control the states](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img007.JPG?raw=true)
  
  
 ## todo 
