@@ -14,10 +14,11 @@ iobroker.telegram, iobroker,enums, nodejs, smarthome, generates a menu from the 
 
 ![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img002.JPG?raw=true)
 
+- enter the names there:
 ![enter the names there:](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img003.JPG?raw=true)
-
+- you can display the menu like this
 ![you can display the menu like this](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img004.JPG?raw=true)
-
+- choose an enum and a function
 ![choose an enum and a function](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img005.JPG?raw=true)
 
 ![...](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img006.JPG?raw=true)
