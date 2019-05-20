@@ -1,0 +1,29 @@
+{
+  "name": "mytelegrammenu",
+  "version": "0.0.5",
+  "description": "build telegram menu from iobroker enums",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "#"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nahasapeemapetilon/MyTelegramMenu.git"
+  },
+  "keywords": [
+    "iobroker",
+    "telegram",
+    "menu",
+    "enum",
+    "enums"
+  ],
+  "author": "Christian Hoffmann <hoffiboffi19@gmx.de> (http://)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nahasapeemapetilon/MyTelegramMenu/issues"
+  },
+  "homepage": "https://github.com/Nahasapeemapetilon/MyTelegramMenu#readme"
+}
