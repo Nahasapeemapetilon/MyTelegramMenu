@@ -41,7 +41,6 @@ iobroker.telegram, iobroker,enums, nodejs, smarthome, generates a menu from the 
  
 ## todo 
 ```
- ~~- multiuser support~~
  - only support boolean states
  - changeing mode to query mode for states
 ```
