@@ -27,6 +27,7 @@ let telegramMenu = new MyTelegramMenu(this,myEnumList);
 
 ![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img002.JPG?raw=true)
 
+![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img003.JPG?raw=true)
 
 - you can display the menu like this
 
