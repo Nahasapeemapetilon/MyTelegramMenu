@@ -1,6 +1,6 @@
 {
   "name": "mytelegrammenu",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "build telegram menu from iobroker enums",
   "main": "index.js",
   "directories": {
@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/Nahasapeemapetilon/MyTelegramMenu/issues"
   },
-  "homepage": "https://github.com/Nahasapeemapetilon/MyTelegramMenu#readme"
+  "homepage": "https://github.com/Nahasapeemapetilon/MyTelegramMenu#readme",
+  "dependencies": {}
 }
