@@ -16,7 +16,7 @@ npm install mytelegrammenu
  - add the following lines
 ```
 let MyTelegramMenu = require('mytelegrammenu');
-let myEnumList =   ['functions','rooms'];
+let myEnumList =   ['rooms','obergeschoss','functions'];
 let telegramMenu = new MyTelegramMenu(this,myEnumList);
 ```
  - adjust the second line in the script and select the enumeration you want to get displayed in telegram
