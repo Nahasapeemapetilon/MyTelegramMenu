@@ -15,13 +15,47 @@ npm install mytelegrammenu
  - create a new javascript in the iobroker
  - add the following lines
 ```
-let MyTelegramMenu = require('mytelegrammenu');
-let myEnumList =   ['rooms','obergeschoss','functions'];
-let telegramMenu = new MyTelegramMenu(this,myEnumList);
+const MyTelegramMenu = require('mytelegrammenu');
+const options = {};
+const telegramMenu = new MyTelegramMenu(this,myEnumList);                                    
+const options = {'enumList': ['rooms','functions'],                                  
+                 'locale':'de'};
+const telegramMenu = new MyTelegramMenu(this,options);
 ```
- - adjust the second line in the script and select the enumeration you want to get displayed in telegram
+###configure
 
- -you can find the name of enum there
+you can set the following options, in the second line
+  - 'enumList' to select the enumeration you want to get displayed in telegram
+    - e.g. -> 'enumList': ['rooms','functions']
+    - possible value is a list of enumerations-name
+  - 'locale' to select language setting
+    - e.g. ->'locale':'en'
+    - possible values are 'de','en'
+  - 'telegramInstance' to select the telegram adapter instance
+    - e.g. 'telegramInstance' : 'telegram.0'
+    - possible value is a string of telegram adapter id
+  - 'feedbackToTelegram' if a state is switched via telegrammenu, you'll get an response
+    - e.g. 'telegramInstance': 'true'
+    - possible value is a boolean = true or false
+  - 'MenuRows' how many buttons are there in a row?
+    - e.g.  'MenuRows':3
+  - 'MenuCols' how many buttons are in the column
+    - e.g. 'MenuCols':2
+
+![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img008.JPG?raw=true)
+
+#### default Options
+  - if you don't set an option value, the default values are:
+```
+  'locale' = 'de'
+  'enumList' = ['rooms']
+  'telegramInstance' = 'telegram.0'
+  'feedbackToTelegram' = true
+  'MenuRows' = 3
+  'MenuCols' = 2;
+```
+
+##### you can find the name of enum there
 
 ![enums name](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img001.JPG?raw=true)
 
@@ -29,8 +63,23 @@ let telegramMenu = new MyTelegramMenu(this,myEnumList);
 
 ![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img003.JPG?raw=true)
 
-- you can display the menu like this
+## adding a enum object for telegrammenu
 
+![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img008.JPG?raw=true)
+
+### supported types
+- device and channel
+  - add all sub states
+- states from type boolean (switch and button)
+- states from type number
+
+if the states are writeable u can change all values with the menu
+
+if a state not writeable telegrammenu show the current value of the state
+
+### menu control
+
+- you can display the menu like this
 
 ![you can display the menu like this](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img004.JPG?raw=true)
 
@@ -50,6 +99,5 @@ let telegramMenu = new MyTelegramMenu(this,myEnumList);
 
 ## todo
 ```
- - only support boolean states
- - changeing mode to query mode for states
+  -print in telegram a table overview of all states
 ```

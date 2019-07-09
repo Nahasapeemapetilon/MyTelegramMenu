@@ -1,6 +1,6 @@
 {
   "name": "mytelegrammenu",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "build telegram menu from iobroker enums",
   "main": "index.js",
   "directories": {
