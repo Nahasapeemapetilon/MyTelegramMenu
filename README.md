@@ -65,7 +65,7 @@ you can set the following options, in the second line
 
 ##### adding a enum object for telegrammenu
 
-![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img008.JPG?raw=true)
+![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img009.JPG?raw=true)
 
 ##### supported types
 - device and channel
