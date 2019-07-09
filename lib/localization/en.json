@@ -1,0 +1,12 @@
+{
+ "SwitchOn"      :"Device was turned on.",
+ "SwitchOff"     :"Device was turned off.",
+ "ButtonChange"  :"Device has been switched on.",
+ "InputNumber"   :"Please enter a new integer value:",
+ "currentNumber" :"Current value is:",
+ "WrongInput"    :"The value was not correct.",
+ "SetNumber"     :"The device was set to the following value:",
+ "enumError"     :"Warning enum not found!",
+ "pleaseChoose"  :"Please choose:" ,
+ "noName"        :"no name found!"
+}
