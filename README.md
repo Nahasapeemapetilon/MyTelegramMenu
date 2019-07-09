@@ -22,7 +22,7 @@ const options = {'enumList': ['rooms','functions'],
                  'locale':'de'};
 const telegramMenu = new MyTelegramMenu(this,options);
 ```
-###configure
+### configure
 
 you can set the following options, in the second line
   - 'enumList' to select the enumeration you want to get displayed in telegram
@@ -63,11 +63,11 @@ you can set the following options, in the second line
 
 ![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img003.JPG?raw=true)
 
-## adding a enum object for telegrammenu
+##### adding a enum object for telegrammenu
 
 ![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img008.JPG?raw=true)
 
-### supported types
+##### supported types
 - device and channel
   - add all sub states
 - states from type boolean (switch and button)
