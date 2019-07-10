@@ -1,12 +1,14 @@
 {
-  "SwitchOn"      :"Gerät wurde an geschaltet.",
-  "SwitchOff"     :"Gerät wurde aus geschaltet.",
+  "SwitchOn"      :"Gerät wurde angeschaltet.",
+  "SwitchOff"     :"Gerät wurde ausgeschaltet.",
   "ButtonChange"  :"Gerät wurde geschaltet.",
   "currentNumber" :"Momentaner Wert ist:",
   "InputNumber"   :"Bitte geben Sie ein neuen ganzzahligen Wert ein:",
   "WrongInput"    :"Der Wert war nicht korrekt.",
   "SetNumber"     :"Das Gerät wurde auf folgenden Wert gesetzt ",
-  "enumError"     :"Achtung enum nicht gefunden!",
+  "enumError"     :"Achtung: Aufzählungname nicht gefunden!",
   "pleaseChoose"  :"Bitte wählen:",
-  "noName"        :"kein Namen gefunden"
+  "noName"        :"kein Namen gefunden",
+  "on"            :"eingeschaltet",
+  "off"           :"ausgeschaltet"
 }

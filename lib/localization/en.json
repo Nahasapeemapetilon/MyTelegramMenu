@@ -6,7 +6,9 @@
  "currentNumber" :"Current value is:",
  "WrongInput"    :"The value was not correct.",
  "SetNumber"     :"The device was set to the following value:",
- "enumError"     :"Warning enum not found!",
+ "enumError"     :"Warning: enumeration name not found!",
  "pleaseChoose"  :"Please choose:" ,
- "noName"        :"no name found!"
+ "noName"        :"no name found!",
+ "on"            :"on",
+ "off"           :"off"
 }
