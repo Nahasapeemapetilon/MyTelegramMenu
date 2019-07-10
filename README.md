@@ -6,6 +6,12 @@ iobroker.telegram, iobroker,enums, nodejs, smarthome, generates a menu from the 
 
 [![NPM](https://nodei.co/npm/mytelegrammenu.png?downloads=true)](https://nodei.co/npm/mytelegrammenu/)
 
+## demo
+
+<p align="left" >  
+  <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/iobrokerTelegramMenu.gif" title="telegram demo">
+</p>
+
 ## install
  - install and configure the [iobroker.telegram adapter](https://github.com/ioBroker/ioBroker.telegram)
  - install this package in your iobroker folder with
