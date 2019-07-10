@@ -15,9 +15,7 @@ npm install mytelegrammenu
  - create a new javascript in the iobroker
  - add the following lines
 ```
-const MyTelegramMenu = require('mytelegrammenu');
-const options = {};
-const telegramMenu = new MyTelegramMenu(this,myEnumList);                                    
+const MyTelegramMenu = require('mytelegrammenu');                         
 const options = {'enumList': ['rooms','functions'],                                  
                  'locale':'de'};
 const telegramMenu = new MyTelegramMenu(this,options);
