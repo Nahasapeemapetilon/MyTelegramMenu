@@ -69,6 +69,11 @@ you can set the following options, in the second line
 
 ##### adding a enum object for telegrammenu
 
+
+<p align="left" >  
+  <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/addEnumsAndTest.gif" title="telegram demo">
+</p>
+
 ![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img009.jpg?raw=true)
 
 ##### supported types
