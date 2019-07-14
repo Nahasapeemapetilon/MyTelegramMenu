@@ -10,5 +10,8 @@
   "pleaseChoose"  :"Bitte wählen:",
   "noName"        :"kein Namen gefunden",
   "on"            :"eingeschaltet",
-  "off"           :"ausgeschaltet"
+  "off"           :"ausgeschaltet",
+  "MinMaxError"   :"Der Wert liegt außerhalb des Gültigkeitsbereiches.",
+  "min"           : "min:",
+  "max"           : "max:"
 }

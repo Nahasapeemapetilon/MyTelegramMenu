@@ -10,5 +10,8 @@
  "pleaseChoose"  :"Please choose:" ,
  "noName"        :"no name found!",
  "on"            :"on",
- "off"           :"off"
+ "off"           :"off",
+ "MinMaxError"    :"The value is outside the validity area.",
+ "min"           : "min:",
+ "max"           : "max:"
 }
