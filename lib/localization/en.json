@@ -13,5 +13,10 @@
  "off"           :"off",
  "MinMaxError"    :"The value is outside the validity area.",
  "min"           : "min:",
- "max"           : "max:"
+ "max"           : "max:",
+ "overview"      :"overview",
+ "noValue"       :"no value",
+ "value"         :"value",
+ "switch"        :"(switch)",
+ "button"        :"(button)"
 }

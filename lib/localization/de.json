@@ -12,6 +12,11 @@
   "on"            :"eingeschaltet",
   "off"           :"ausgeschaltet",
   "MinMaxError"   :"Der Wert liegt außerhalb des Gültigkeitsbereiches.",
-  "min"           : "min:",
-  "max"           : "max:"
+  "min"           :"min:",
+  "max"           :"max:",
+  "overview"      :"Übersicht",
+  "noValue"       :"kein Wert",
+  "value"         :"Wert",
+  "switch"        :"(Schalter)",
+  "button"        :"(Taster)"
 }
