@@ -1,5 +1,5 @@
 # MyTelegramMenu
-iobroker.telegram, iobroker,enums, nodejs, smarthome, generates a menu from the enumerations in the iobroker
+iobroker.telegram, iobroker,enums, nodejs, smarthome,telegram, telegra.ph,generates a menu from the enumerations in the iobroker
 [![NPM version](http://img.shields.io/npm/v/mytelegrammenu.svg)](https://www.npmjs.com/package/mytelegrammenu)
 [![Downloads](https://img.shields.io/npm/dm/mytelegrammenu.svg)](https://www.npmjs.com/package/mytelegrammenu)
 
@@ -14,10 +14,19 @@ iobroker.telegram, iobroker,enums, nodejs, smarthome, generates a menu from the 
 
 ## install
  - install and configure the [iobroker.telegram adapter](https://github.com/ioBroker/ioBroker.telegram)
+ <s>
  - install this package in your iobroker folder with
+
 ```
 npm install mytelegrammenu
 ```
+</s>
+ - add the additional npm package to the javascript adapter instance:
+
+ <p align="left" >  
+   <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/add_package.gif" title="add npm package">
+ </p>
+
  - create a new javascript in the iobroker
  - add the following lines
 ```
@@ -105,8 +114,11 @@ if a state not writeable telegrammenu show the current value of the state
 
 ![control the states](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img007.JPG?raw=true)
 
-
+### report states with telegra.ph
+<p align="left" >  
+  <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/greateReport.gif" title="telegram demo">
+</p>
 ## todo
 ```
-  -print in telegram a table overview of all states
+  <s>-print in telegram a table overview of all states</s>
 ```
