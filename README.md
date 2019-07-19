@@ -116,7 +116,7 @@ if a state not writeable telegrammenu show the current value of the state
 
 ### report states with telegra.ph
 <p align="left" >  
-  <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/greateReport.gif" title="telegram demo">
+  <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/createReport.gif" title="telegram demo">
 </p>
 ## todo
 ```
