@@ -26,5 +26,7 @@
     "url": "https://github.com/Nahasapeemapetilon/MyTelegramMenu/issues"
   },
   "homepage": "https://github.com/Nahasapeemapetilon/MyTelegramMenu#readme",
-  "dependencies": {}
+  "dependencies": {
+    "telegra.ph": "^1.0.1"
+  }
 }
