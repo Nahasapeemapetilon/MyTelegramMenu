@@ -82,7 +82,11 @@ if a state not writeable telegrammenu show the current value of the state
 
 ### menu control
 
-- you can display the menu like this
+- you can display the menu like this:
+```
+/menue
+```
+
 ![you can display the menu like this](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img004.JPG?raw=true)
 
 
