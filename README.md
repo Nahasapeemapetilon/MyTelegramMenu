@@ -55,8 +55,6 @@ you can set the following options, in the second line
   - 'MenuCols' how many buttons are in the column
     - e.g. 'MenuCols':2
 
-![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img008.JPG?raw=true)
-
 #### default Options
   - if you don't set an option value, the default values are:
 ```
@@ -67,23 +65,10 @@ you can set the following options, in the second line
   'MenuRows' = 3
   'MenuCols' = 2;
 ```
-
-##### you can find the name of enum there
-
-![enums name](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img001.JPG?raw=true)
-
-![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img002.JPG?raw=true)
-
-![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img003.JPG?raw=true)
-
-##### adding a enum object for telegrammenu
-
-
+##### adding a enum-objects for telegrammenu
 <p align="left" >  
   <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/addEnumsAndTest.gif" title="telegram demo">
 </p>
-
-![enums name2](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img009.jpg?raw=true)
 
 ##### supported types
 - device and channel
@@ -98,27 +83,11 @@ if a state not writeable telegrammenu show the current value of the state
 ### menu control
 
 - you can display the menu like this
-
 ![you can display the menu like this](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img004.JPG?raw=true)
 
-- choose an enum and a function
-
-
-![choose an enum and a function](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img005.JPG?raw=true)
-
-
-
-![...](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img006.JPG?raw=true)
-
-
-
-![control the states](https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/img007.JPG?raw=true)
 
 ### report states with telegra.ph
 <p align="left" >  
   <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/createReport.gif" title="telegram demo">
 </p>
-## todo
-```
-  <s>-print in telegram a table overview of all states</s>
-```
+
