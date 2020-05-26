@@ -51,8 +51,8 @@ you can set the following options, in the second line
     - e.g. 'telegramInstance': 'true'
     - possible value is a boolean = true or false
   - 'showRootItemsCommand' the command to display the menu
-    -e.g. 'showRootItemsCommand' : '/showMenu'
-    -this command should always start with an /
+    - e.g. 'showRootItemsCommand' : '/showMenu'
+    - this command should always start with an /
   - 'MenuRows' how many buttons are there in a row?
     - e.g.  'MenuRows':3
   - 'MenuCols' how many buttons are in the column
