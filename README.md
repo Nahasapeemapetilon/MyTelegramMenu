@@ -50,6 +50,9 @@ you can set the following options, in the second line
   - 'feedbackToTelegram' if a state is switched via telegrammenu, you'll get an response
     - e.g. 'telegramInstance': 'true'
     - possible value is a boolean = true or false
+  - 'showRootItemsCommand' the command to display the menu
+    -e.g. 'showRootItemsCommand' : '/showMenu'
+    -this command should always start with an /
   - 'MenuRows' how many buttons are there in a row?
     - e.g.  'MenuRows':3
   - 'MenuCols' how many buttons are in the column
@@ -62,6 +65,7 @@ you can set the following options, in the second line
   'enumList' = ['rooms']
   'telegramInstance' = 'telegram.0'
   'feedbackToTelegram' = true
+  'showRootItemsCommand' = '/menue'
   'MenuRows' = 3
   'MenuCols' = 2;
 ```
@@ -94,4 +98,3 @@ if a state not writeable telegrammenu show the current value of the state
 <p align="left" >  
   <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/createReport.gif" title="telegram demo">
 </p>
-
