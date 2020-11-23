@@ -98,3 +98,9 @@ if a state not writeable telegrammenu show the current value of the state
 <p align="left" >  
   <img src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/createReport.gif" title="telegram demo">
 </p>
+
+### Changelog
+#### 0.11 (2020-11-22)
+* Output text to telegram adjusted for non-writeable values.
+* fix unhandledRejection
+* validity range when setting values (for example shelly shutter min/max position)
