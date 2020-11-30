@@ -18,5 +18,6 @@
  "noValue"       :"no value",
  "value"         :"value",
  "switch"        :"(switch)",
- "button"        :"(button)"
+ "button"        :"(button)",
+ "noLamp"        :"Could not find a lamp with the name:"
 }
