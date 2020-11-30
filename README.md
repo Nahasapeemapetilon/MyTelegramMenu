@@ -146,7 +146,7 @@ if a state not writeable telegrammenu show the current value of the state
 ### adding a enum-objects for google commands
 <p align="left">
 <ol>
-<li> than you can say "ok google Enum-Name StateName"</li>
+<li> than you can say "ok google schalte "Enum-Name" "StateName""</li>
 <li> and the bot is looking for the state and switch it</li>
 <li> only button or switch </li>
 </ol>
