@@ -19,5 +19,5 @@
   "value"         :"Wert",
   "switch"        :"(Schalter)",
   "button"        :"(Taster)",
-  "noLamp"        :"Konnte kein Lampe finden mit dem Namen:"
+  "noLamp"        :"Konnte kein Schalter finden mit dem Namen:"
 }
