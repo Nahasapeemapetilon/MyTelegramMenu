@@ -149,7 +149,7 @@ if a state not writeable telegrammenu show the current value of the state
 ### adding a enum-objects for google commands
 <p align="left">
 <ol>
-<li> than you can say "ok google Enum-Name StateName"</li>
+<li> than you can say "ok google schalte "Enum-Name" "StateName""</li>
 <li> and the bot is looking for the state and switch it</li>
 <li> only button or switch </li>
 </ol>
@@ -178,6 +178,6 @@ if a state not writeable telegrammenu show the current value of the state
 
 #### 0.11 (2020-11-22)
 
-* Output text to telegram adjusted for non-writeable values.
+* Output text to telegram adjusted for non-writeable values. 
 * fix unhandledRejection
 * validity range when setting values (for example shelly shutter min/max position)
