@@ -19,5 +19,6 @@
  "value"         :"value",
  "switch"        :"(switch)",
  "button"        :"(button)",
- "noLamp"        :"Could not find a switch with the name:"
+ "noLamp"        :"Could not find a switch with the name:",
+ "JSONError"     :"The Google spreadsheet could not be opened."
 }
