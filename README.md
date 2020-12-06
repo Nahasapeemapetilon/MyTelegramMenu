@@ -64,6 +64,8 @@ you can set the following options, in the second line
   - 'googleURL' JSON endpoint URL of your public Google Spreadsheets file
     - e.g. 'googleURL' : 'https://spreadsheets.google.com/feeds/cells/<yourIDCode>/1/public/full?alt=json'
   -  googleEnumList : the enumeration list you want to use for google control
+  - 'googleIgnoreEnumName' : if this flag is true, we no longer need to confirm the enum name with. the googlehanlder looking only for state names.
+    - e.g 'googleIgnoreEnumName' : true
 
 
 #### default Options
@@ -80,6 +82,7 @@ you can set the following options, in the second line
   'pollingInterval' = 750;
   'googleURL' = '';
   'googleEnumList' = '';
+  'googleIgnoreEnumName' = false;
 
 ```
 ##### adding a enum-objects for telegrammenu
@@ -154,8 +157,17 @@ if a state not writeable telegrammenu show the current value of the state
 <p align="left" >  
     <img height = 500 width = 500 src="https://github.com/Nahasapeemapetilon/MyTelegramMenu/blob/master/img/createGoogleEnum.gif" title="create a json sheet"></p>
 
-### Changelog
+### googleIgnoreEnumName flag
+<p align="left">
+  if u ignore the enumnames with google polling u can say <br>"ok goolge [Ifttt-Command] [State Name]"<br> to switch a button
+  otherwise u have to say<br> "ok google [ifttt-command] [enumname] [state name]"
+</p>
 
+### Changelog
+#### 0.13 (2020-05-12)
+* some small bugfix with google polling
+* add option googleIgnoreEnumName to ignore enum names
+* add state for google lastCommand
 #### 0.12 (2020-11-29)
 
 * adding polling for google sheets
