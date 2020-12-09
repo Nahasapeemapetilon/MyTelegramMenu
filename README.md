@@ -62,7 +62,7 @@ you can set the following options, in the second line
   - 'pollingInterval' how often the google sheet file is read in ms
     - e.g. 'pollingInterval' : 700
   - 'googleURL' JSON endpoint URL of your public Google Spreadsheets file
-    - e.g. 'googleURL' : 'https://spreadsheets.google.com/feeds/cells/<yourIDCode>/1/public/full?alt=json'
+    - e.g. 'googleURL' : 'https://spreadsheets.google.com/feeds/cells/[yourIDCode]/1/public/full?alt=json'
   -  googleEnumList : the enumeration list you want to use for google control
   - 'googleIgnoreEnumName' : if this flag is true, we no longer need to confirm the enum name with. the googlehanlder looking only for state names.
     - e.g 'googleIgnoreEnumName' : true
