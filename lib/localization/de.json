@@ -20,5 +20,6 @@
   "switch"        :"(Schalter)",
   "button"        :"(Taster)",
   "noLamp"        :"Konnte kein Schalter finden mit dem Namen:",
-  "JSONError"     :"Die Google Tabelle konnte nicht geöffnet werden."
+  "JSONError"     :"Die Google Tabelle konnte nicht geöffnet werden.",
+  "pollingAbort"  :"Google Abfrage wird abgebrochen"
 }
