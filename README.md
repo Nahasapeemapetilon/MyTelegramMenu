@@ -66,6 +66,8 @@ you can set the following options, in the second line
   -  googleEnumList : the enumeration list you want to use for google control
   - 'googleIgnoreEnumName' : if this flag is true, we no longer need to confirm the enum name with. the googlehanlder looking only for state names.
     - e.g 'googleIgnoreEnumName' : true
+  - 'googlePollingRestart' : automatic restart goolge sheet polling after 1 min  
+    - e.g. 'googlePollingRestart : true' 
 
 
 #### default Options
@@ -83,6 +85,7 @@ you can set the following options, in the second line
   'googleURL' = '';
   'googleEnumList' = '';
   'googleIgnoreEnumName' = false;
+  'googlePollingRestart' = true;
 
 ```
 ##### adding a enum-objects for telegrammenu
@@ -164,6 +167,9 @@ if a state not writeable telegrammenu show the current value of the state
 </p>
 
 ### Changelog
+#### 0.14 (2020-13-12)
+* automatic restart goolge sheet polling after 1 min
+* add option to deactivate polling restart
 #### 0.13 (2020-05-12)
 * some small bugfix with google polling
 * add option googleIgnoreEnumName to ignore enum names
@@ -178,6 +184,6 @@ if a state not writeable telegrammenu show the current value of the state
 
 #### 0.11 (2020-11-22)
 
-* Output text to telegram adjusted for non-writeable values. 
+* Output text to telegram adjusted for non-writeable values.
 * fix unhandledRejection
 * validity range when setting values (for example shelly shutter min/max position)
