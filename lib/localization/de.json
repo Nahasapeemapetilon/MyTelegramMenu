@@ -21,5 +21,6 @@
   "button"        :"(Taster)",
   "noLamp"        :"Konnte kein Schalter finden mit dem Namen:",
   "JSONError"     :"Die Google Tabelle konnte nicht geöffnet werden.",
-  "pollingAbort"  :"Google Abfrage wird abgebrochen"
+  "pollingAbort"  :"Google Abfrage wird abgebrochen",
+  "pollingRestart":"Google Abfrage wird gestartet."
 }
