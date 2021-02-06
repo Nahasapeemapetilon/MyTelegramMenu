@@ -67,7 +67,7 @@ you can set the following options, in the second line
   - 'googleIgnoreEnumName' : if this flag is true, we no longer need to confirm the enum name with. the googlehanlder looking only for state names.
     - e.g 'googleIgnoreEnumName' : true
   - 'googlePollingRestart' : automatic restart goolge sheet polling after 1 min  
-    - e.g. 'googlePollingRestart : true' 
+    - e.g. 'googlePollingRestart : true'
 
 
 #### default Options
@@ -167,6 +167,8 @@ if a state not writeable telegrammenu show the current value of the state
 </p>
 
 ### Changelog
+#### 0.15 (2021-06-02)
+* fixing polling restart if the table could not be read
 #### 0.14 (2020-13-12)
 * automatic restart goolge sheet polling after 1 min
 * add option to deactivate polling restart
