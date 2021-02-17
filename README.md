@@ -167,6 +167,8 @@ if a state not writeable telegrammenu show the current value of the state
 </p>
 
 ### Changelog
+#### 0.16 (2021-17-02)
+* when the telegram adapter sends an empty string, the last command in memory is not executed again
 #### 0.15 (2021-06-02)
 * fixing polling restart if the table could not be read
 #### 0.14 (2020-13-12)
