@@ -98,6 +98,7 @@ you can set the following options, in the second line
   - add all sub states
 - states from type boolean (switch and button)
 - states from type number
+- states from type of string
 
 if the states are writeable u can change all values with the menu
 
@@ -167,6 +168,8 @@ if a state not writeable telegrammenu show the current value of the state
 </p>
 
 ### Changelog
+#### 0.17 (2021-17-02)
+* add support for states (type of string)
 #### 0.16 (2021-17-02)
 * when the telegram adapter sends an empty string, the last command in memory is not executed again
 #### 0.15 (2021-06-02)
